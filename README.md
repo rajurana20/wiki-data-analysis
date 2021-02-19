@@ -16,22 +16,22 @@ List of features ready - The analysis consist of answer of the following questio
 - Finding the dead end page from where user never visit to next page that is the page which is never used as refferer.
 
 To-do list for future development:
-
-- Wow improvement to be done 1
-- Wow improvement to be done 2
+- The project is based on limited data, This project can lead to vast querrying can be done to find patterns to which language article are trending in which hour/time.
 ## Getting Started
-(include git clone command) (include all environment setup steps)
+Requirements / Tools
+ - if you have windows then you need to install wls2 if you have linux/ubuntu wsl not required because wsl is to run linux in windows os. https://docs.microsoft.com/en-us/windows/wsl/install-win10
+ - install hadoop 2.7.7 https://hadoop.apache.org/docs/r2.7.7/hadoop-project-dist/hadoop-common/SingleCluster.html
+ - start dfs and yarn
+ - next install hive https://cwiki.apache.org/confluence/display/Hive/GettingStarted#GettingStarted-RunningHiveServer2andBeeline
+ - git clone https://github.com/rajurana20/wiki-data-analysis in linux terminal through wsl
+ - you can have wiki dump data from https://dumps.wikimedia.org/other/analytics/
+ - then you can run those querry in beeline or you can install DBeaver and connect hiveserver2 for easy UI.
 
-Be sure to include BOTH Windows and Unix command
-Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-All the code required to get started
-Images of what it should look like
 ## Usage
-Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+Best thing is to have dbeaver connected to hiveserver2. Open these script. Best way is to start from question-1.sql script. Execute each line by line till the end of the file, at the end of the file execution you will get the final required answer.
 
 ## Contributors
-Here list the people who have contributed to this project. (ignore this section, if its a solo project)
+Its solo project, but we used guidance of our instructor adam.
 
 ## License
-This project uses the following license: <license_name>.
+This project uses the following license: Its open source. Any one can use it modify it as they want. and can built their own project.
